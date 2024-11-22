@@ -1,0 +1,14 @@
+{
+  "project_name": "Python Boilerplate",
+  "short_description": "",
+  "python_version": "3.10",
+  "__project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "__package_name": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('-', '_') }}",
+  "__py_version": "{{ cookiecutter.python_version.replace('.', '') }}",
+  "__version": "0.0.1",
+  "__full_name": "Jan van Hest",
+  "__email": "jan.vanhest@gmail.com",
+  "__github_user": "jvhest",
+  "__license": "MIT license",
+  "mypy_pre_commit": ["n", "y"]
+}
